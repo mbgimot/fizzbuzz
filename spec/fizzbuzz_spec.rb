@@ -1,4 +1,4 @@
-require './fizzbuzz.rb'
+require './lib/fizzbuzz.rb'
 
 describe 'fizz_multiples_of_three' do
   it 'returns "fizz" when passed 3' do
@@ -13,7 +13,7 @@ describe 'fizz_multiples_of_three' do
   it 'returns "fizz" when passed 12' do
     expect(fizzbuzz(12)).to eq 'fizz'
   end
-  
+
   it 'returns "fizz" when passed 18' do
     expect(fizzbuzz(18)).to eq 'fizz'
   end
